@@ -1,0 +1,26 @@
+nav {
+  height: 100%;
+}
+ul {
+  background-color: #393f4d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 20px;
+}
+ul li a {
+  color: #fffffd;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 15px;
+  transition: color 0.4s ease;
+}
+ul li a:hover {
+  color: #99ff39;
+}
+
+a.active {
+  color: #99ff39;
+}
